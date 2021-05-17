@@ -2,7 +2,9 @@ class Car:
     def __init__(self,name,color):
         self.name=name
         self.color=color
-    def accelerate(self):
-        return "Accelerate by 5km"    
+    def accelerate(self,acceleration,speed):
+        return acceleration+speed   
     def start(self):
-        return "Vraaa"
+        return "Vraaaaaaaaaaaaa"
+    def park(self,kilometers):
+        return kilometers

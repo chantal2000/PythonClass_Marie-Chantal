@@ -6,3 +6,5 @@ class Dog:
         return kilograms
     def serve_people(self):
         return 'these are guard dogs,'
+    def move(self):
+        return "3kilometers"

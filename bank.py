@@ -6,3 +6,5 @@ class Bank:
         return "Banks save people's money"
     def money_transfer(self):
         return 'Banks help people is transfering money'
+    def advice_people(self):
+        return 'banks advice people on how to use money efficiently'
