@@ -1,10 +1,10 @@
 class Dog:
-    def __init__(self,color,weight):
-        self.color=color
+    def __init__(self,name,weight):
+        self.name=name
         self.weight=weight
-    def eat(self,kilograms):
-        return kilograms
+    def eat(self):
+        return self.name + "has" + self.weight
     def serve_people(self):
-        return 'these are guard dogs,'
+        return  self.name + 'serves people'
     def move(self):
-        return "3kilometers"
+        return  self.name +" has moved  + " "3kilometers" + "and has" + self.weight

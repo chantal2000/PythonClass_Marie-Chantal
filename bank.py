@@ -3,8 +3,8 @@ class Bank:
         self.name=name
         self.location=location
     def save_money(self):
-        return "Banks save people's money"
+        return  self.name + "located in"+ self.location+ "save people's money"
     def money_transfer(self):
-        return 'Banks help people is transfering money'
+        return self.name + ' help people in transfering money'
     def advice_people(self):
-        return 'banks advice people on how to use money efficiently'
+        return  self.name + 'bank advice people on how to use money efficiently'
