@@ -7,4 +7,4 @@ class Dog:
     def serve_people(self):
         return  self.name + 'serves people'
     def move(self):
-        return  self.name +" has moved  + " "3kilometers" + "and has" + self.weight
+        return  self.name +" has moved " + "3kilometers" + "and has" + self.weight
