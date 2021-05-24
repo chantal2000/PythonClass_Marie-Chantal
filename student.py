@@ -3,6 +3,6 @@ class Student:
         self.name=name
         self.age=age
     def speak(self):
-        return  self.name +"is talkative"
+        return  f"{self.name} is talkative"
     def eat(self):
-        return  "Peope with " + self.age+ "eats food a lot"
+        return  f"Peope with {self.age} eat food a lot"
